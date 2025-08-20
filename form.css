@@ -28,5 +28,21 @@ body{
     padding: 0% 10px;
     border: #0df1ee solid 2px
 }
+.button{
+    background-color:#0a1a3b;
+    color: rgb(13, 47, 221);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+   
+   
+}
 
    
+
