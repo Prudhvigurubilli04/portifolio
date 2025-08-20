@@ -22,6 +22,11 @@ body{
 
 }
 .country{
-    padding-left: 10px;
+     margin: 5px 0;
+    width: 30%;
+    height: 40px;
+    padding: 0% 10px;
+    border: #0df1ee solid 2px
 }
+
    
