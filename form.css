@@ -1,0 +1,27 @@
+body{
+    background-color: #f5f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+
+}
+.flex-container{
+    background-color: rgb(31, 247, 247);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+
+}
+.country{
+    padding-left: 10px;
+}
+   
