@@ -1,0 +1,138 @@
+.logo{
+   font-size: 2rem;
+    font-size: 50px;
+
+}
+.nav-content{
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+.nav-content .logo a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(primary-color);
+    transition: all 0.3s;
+}
+.nav-content .logo a:hover {
+    color: var(--primary-color-dark);
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color:--primary-color-dark; ;
+    text-underline-offset: 0.2rem;
+    text-decoration-thickness: 0.1rem;
+}
+.nav-content .checkbox {
+    display: none;
+    position: relative;
+    list-style: none;
+}
+.nav.checkbox input {
+    display: none;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.ul li a:hover {
+    border: 2px solid var(--primary-color-dark);
+    color: var(--primary-color-dark);
+    background-color: var(--primary-color-light);
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color-dark);
+    text-underline-offset: 0.2rem;
+    text-decoration-thickness: 0.1rem;
+    font-weight: bold;
+    transition: all 0.3s;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: inset 0 0 0.5rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    flex-direction: column;
+}
+   
+.nav-content input {
+    display: none;
+}
+.nav-content .checkbox i {
+    font-size: 2rem;
+    color: var(primary-color);
+    cursor: pointer;
+    transition: color 0.3s;
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration-color: var(--primary-color-dark);
+    text-underline-offset: 0.2rem;
+    text-decoration-thickness: 0.1rem;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+    text-decoration-color: var(--primary-color-dark);
+    text-decoration-skip-ink: 0.1rem;
+    text-decoration-skip: ink;
+    text-decoration-skip-ink: auto;
+    text-decoration-skip-ink: all;
+    text-decoration-skip-ink: none;
+}
+.nav-content .checkbox i:hover {
+    color: var(--primary-color-dark);
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color-dark);
+    text-underline-offset: 0.2rem;
+    text-decoration-thickness: 0.1rem;
+    text-decoration-color: var(--primary-color-dark);
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+    text-decoration-skip-ink: auto; 
+     text-decoration: solid;
+   text-decoration-skip: ink;
+    text-decoration-skip-ink: all;
+     text-decoration-skip-ink: none;
+    text-decoration-skip-ink: auto;
+}
+ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition:  left 0.3s;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap ;
+    justify-content: center;
+    background-color: var( --extra-light);
+    border-radius: 0.5rem;
+    box-shadow: inset 0 0 0.5rem rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: var(--primary-color-light);
+    border: 2px solid var(--primary-color-dark);
+}
+ul li a {
+    padding: 0%.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color: var (--text-dark);
+    transition: all 0.3s;
+}
+
+
+
+
+
