@@ -1,5 +1,5 @@
-body{
-    background-color: #f5f7f7;
+body {
+    background-color: #0a1a3b;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,9 +7,10 @@ body{
     margin: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
-
 }
-.flex-container{
+
+
+.flex-container {
     background-color: rgb(31, 247, 247);
     align-items: center;
     display: flex;
@@ -21,15 +22,18 @@ body{
     padding: 20px;
 
 }
-.country{
-     margin: 5px 0;
-    width: 30%;
+
+.country {
+    margin: 5px;
+    width: 34%;
     height: 40px;
-    padding: 0% 10px;
-    border: #0df1ee solid 2px
+    padding: 0 10px;
+    border: #0df1ee solid 2px;
+    box-sizing: border-box;
 }
-.button{
-    background-color:#0a1a3b;
+
+.button {
+    background-color: #0a1a3b;
     color: rgb(245, 246, 250);
     font-weight: bold;
     font-size: 20px;
@@ -42,6 +46,38 @@ body{
     cursor: pointer;
 }
 
-   
+.country select {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .flex-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .flex-container h1 {
+        font-size: 20px;
+    }
+
+    .form-group {
+        font-size: 14px;
+    }
+
+    .country {
+        font-size: 14px;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .flex-container {
+        width: 60%;
+    }
+}
 
 
