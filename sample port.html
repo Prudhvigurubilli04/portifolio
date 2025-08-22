@@ -5,36 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive portfolio</title>
-    <link rel="stylesheet" href="sample.css">
+    <link rel="stylesheet" href="sample1.css">
 </head>
 
 <body>
     <nav>
         <div class="nav-content">
-            <div class="logo"><a href="Prudhvi"></a>
-                <span>Prudhvi</span>
+            <div class="logo"><a href="Prudhvi" class="logo">Prudhvi</a>
+                <!-- <span></span> -->
             </div>
-            <label for="check" class="checkbox">
-                <i class="menu-line"></i>
-            </label>
-            <input type="checkbox" name="check" id="check">
-            <ul>
-                <li><a href="#">Home</a> </li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+
+            <div class="checkbox">
+                <a href="#" class="list">Home</a> 
+                <a href="#" class="list">About</a>
+                <a href="#" class="list">Resume</a>
+                <a href="#" class="list">Portfolio</a>
+                <a href="#" class="list">Contact</a>
+            </div>
         </div>
     </nav>
     <section class="section">
-        <div class="section-container"></div>
-        <div class="content"></div>
-        <p class="subtitle">Hello</p>
-        <h1 class="title">I am <span>Prudhvi <br>a</span>
+        <div class="section-container">
+            <h1 class="title">I am <span>Prudhvi <br>a</span>
             UI/UX Developer
         </h1>
-        <p>
+        <p class="para">
             Welcome to my portfolio! I"m Prudhvi, a passionate UI/UX developer dedicated to creating intuitive and
             engagning user experiences.
             with a strong focus on usability and aesthetics, I strive to design interfaces that not only look graet but
@@ -42,14 +37,19 @@
             user satisfaction. My portfolio showcases a variety of projects that highlight my skills in web design and
             development.
         </p>
+        </div>
+        <div class="content">
+             <div class="image">
+        <img src="image.png" alt="profile here" class="im">
+    </div>
+        </div>
+        
     </section>
-    <div class="action-button">
-        <button class="Hire me"></button>
-        <button class="portfolio"></button>
+    <div >
+        <button class="action-button">Hire Me</button>
+        <button  class="action-button">Portfolio</button>
     </div>
-    <div class="image">
-        <img src="assets/profile.jpg" alt="profile">
-    </div>
+   <footer></footer>
 </body>
 
 </html>
