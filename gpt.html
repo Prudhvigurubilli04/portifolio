@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+    .hero {
+      background: #56b9eb;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .hero p {
+      font-size: 1.25rem;
+    }
+    .project-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">MyPortfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <section class="hero" id="home">
+    <div class="container">
+      <h1>Hello, I'm G.Prudhvi</h1>
+      <p>UI/UX Developer | Designer </p>
+      <a href="#projects" class="btn btn-primary mt-3">View Projects</a>
+    </div>
+  </section>
+
+  
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">About Me</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="https://via.placeholder.com/300" alt="Your Photo" class="img-fluid rounded">
+        </div>
+        <div class="col-md-8">
+          <p> Welcome to my portfolio! I"m Prudhvi, a passionate UI/UX developer dedicated to creating intuitive
+                    and
+                    engaging user experiences.
+                    with a strong focus on usability and aesthetics, I strive to design interfaces that not only look
+                    graet but
+                    also enhances
+                    user satisfaction. My portfolio showcases a variety of projects that highlight my skills in web
+                    design and
+                    development.
+                </p>
+          <h5 class="mt-4">Skills</h5>
+          <span class="badge bg-primary">HTML</span>
+          <span class="badge bg-secondary">CSS</span>
+          <span class="badge bg-success">JavaScript</span>
+          <span class="badge bg-info text-dark">Bootstrap</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card project-card">
+            <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project One</h5>
+              <p class="card-text">A brief description of your project.</p>
+              <a href="#" class="btn btn-outline-primary btn-sm">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card project-card">
+            <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Project Two</h5>
+              <p class="card-text">A brief description of your project.</p>
+              <a href="#" class="btn btn-outline-primary btn-sm">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card project-card">
+            <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Project Three</h5>
+              <p class="card-text">A brief description of your project.</p>
+              <a href="#" class="btn btn-outline-primary btn-sm">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Contact Me</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-light py-3">
+    <div class="container text-center">
+      <div class="mb-2">
+        <a href="#" class="text-light me-3"><i class="bi bi-github"></i></a>
+        <a href="#" class="text-light me-3"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="text-light"><i class="bi bi-envelope"></i></a>
+      </div>
+      <p class="mb-0">&copy; 2025 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
